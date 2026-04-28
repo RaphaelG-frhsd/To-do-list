@@ -1,7 +1,7 @@
-/<!doctype html>
+<!doctype html>
 <html lang="en" data-bs-theme="light">
     <head>
-        <title>Title</title>
+        <title>To Do List Project</title>
         <!-- Required meta tags -->
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -14,7 +14,7 @@
             crossorigin="anonymous"
         />
 
-        <link rel="'stylesheet" href= "style.css">
+        <link rel="stylesheet" href="styles.css">
     </head>
 
     <body>
@@ -23,28 +23,29 @@
         </header>
         <main class="container mt-5">
             <div class="row justify-content-center">
-
-                <div class="col-md-8 col-l6-6"></div>
-                    <h2 class="text-center">To-do-List</h2>
-                        
+                <div class="col-md-8 col-lg-6">
+                    <h2 class="text-center">To-Do-List</h2>
                     <div class="row">
-                        <div> class="col-8">
-                            <input typ="text" id="taskInput" class="form-control" placeholder="Enter THE task">
-                     </div>
-                     <div class="col-4">
-                        <button id="addTaskBtn" class=""Btn btn-primary w-100"></button>
-                     </div>
-                 </div>
-                 <div class="row">
-                    <div class ="col-12">
-                        <ul id="taskList" class="list-group mt-3">
-
-                        </ul>
+                        <div class="col-8">
+                            <input type="text" id="taskInput" class="form-control" placeholder="Enter a task!">
+                        </div>
+                        <div class="col-4">
+                            <button id="addTaskBtn" class="btn btn-primary w-100">Add Task!</button>
+                        </div>
                     </div>
-                 </div>
-                 <div class="row">
-                    <div class ="col-12">
-                        <button id="clearTaskBtn" class= btn btn-danger w-100> Clear all Tasks </button>
+                    <div class="row">
+                        <div class="col-12">
+                            <ul id="taskList" class="list-group mt-3">
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <button id="clearTasksBtn" class=" btn btn-danger w-100">Clear All Tasks</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer>
@@ -56,5 +57,6 @@
             integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
             crossorigin="anonymous"
         ></script>
+        <script src="app.js"></script>
     </body>
 </html>
